@@ -19,7 +19,7 @@ def contact():
 
 @app.route("/cv")
 def download_cv():
-    file_path = "./tech cv with link .pdf"
+    file_path = "./Pranay's CV.pdf"
     return send_file(file_path, as_attachment=True)
 
 
